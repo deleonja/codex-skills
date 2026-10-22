@@ -1,0 +1,3 @@
+interface:
+  display_name: "Rename Book Files"
+  short_description: "Rename PDF and DjVu books using verified bibliographic data"
