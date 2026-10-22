@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Fold Markers"
+  short_description: "Add balanced fold markers to source files"
+  default_prompt: "Use $add-fold-markers to add folding markers to this code file."
