@@ -1,0 +1,4 @@
+interface:
+  display_name: "Format Wolfram Code"
+  short_description: "Reformat .wl and .wls code for readable structure"
+  default_prompt: "Reformat this Wolfram Language code while preserving semantics and local style."
