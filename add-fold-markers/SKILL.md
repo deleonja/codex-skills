@@ -36,6 +36,9 @@ Use the literal marker text `{{{*` to open and `*}}}` to close. Adapt only its c
 
 ## LaTeX
 
+- Open the preamble fold inline on `\documentclass`; group packages, layout, commands, theorem environments, and title information with named nested comment headers when present. Close the preamble before `\begin{document}`.
+- Fold multiline environments such as the abstract inline on `\begin{...}`, closing after the environment. Do not make a separate fold for a single-line `\maketitle`.
+
 - Put each major section opener inline at the end of its `\section{...}`
   line, for example `\section{Introduction}% {{{*`. Apply the same rule to
   `\subsection{...}` lines.
